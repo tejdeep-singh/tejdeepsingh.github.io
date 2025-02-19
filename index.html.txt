@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejdeep Singh - Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tejdeep Singh</h1>
+        <p>Data Analyst | Power BI Specialist</p>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a Data Analyst with expertise in Power BI, SQL, and data visualization. Passionate about turning raw data into actionable insights.</p>
+        </section>
+        
+        <section>
+            <h2>Resume</h2>
+            <a href="your_resume.pdf" download class="btn">Download My Resume</a>
+        </section>
+        
+        <section>
+            <h2>Power BI Projects</h2>
+            <p>Here are some of my Power BI dashboards:</p>
+            <iframe src="YOUR_POWERBI_EMBED_LINK"></iframe>
+            <iframe src="ANOTHER_POWERBI_EMBED_LINK"></iframe>
+        </section>
+        
+        <section>
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Tejdeep Singh | Data Analyst Portfolio</p>
+    </footer>
+</body>
+</html>
